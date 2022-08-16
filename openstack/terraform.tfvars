@@ -27,4 +27,4 @@ rancher_admin_password = "admin123"
 # Name of custom cluster that will be created
 cluster_name = "demo"
 # rancher/rancher image tag to use
-rancher_version = "v2.5.7"
+rancher_version = "v2.6.6"

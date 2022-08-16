@@ -1,14 +1,8 @@
-# please fill these variables or use TF_VARS_ prefix to be exported env variables
-# openstack_project = ""
-# openstack_username = ""
-# openstack_password = ""
-openstack_auth_url = "https://api-url-openstack.com/identity/v3"
-openstack_domain   = "domain"
-public_key         = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFiJPJGZ...." ## default location ~/.ssh/id_rsa.pub
+public_key         = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtddv4Y9ZLJvslFPQfs1ABakoUwGv+ohhst649Mfa3wYVEYgIAeZAETYeCw8ui6xfDa3qKDBeBsTVtm1LjNnd5ou4rFXg+NApD+RWy5XjMhPZtMGAYF+4LrqLpK7QJ1796cMthG+AzJQN/SNXazVtMYFbtRPJuWKJ3duapi8kZZ1aKnA4YYKtNPSrN6XbIq2aLKyFG93TU5HDXsJNcB38nI6iqBKKDSE7sXeF/6NnuvyWYkrjQe1qWKAi2h8CAPoBCLbnsT42V4t4CvvMAp0aFX6JAMEk0iaqNfXeAiMju6EP4UYsu8RcYRr6+nWBLXaxM1mS0BCLj8k8VW4R+dFoDmffQZzdrD4vpHoAqQbKCSL+SALyw32P63yzklKb2dIHHlR3K73unBgujnEs1qalvIVqcZLsXOp6VVUCAp+h6kOTYGKhcVdH1c1OtMWAQ7sbIm8uiR+rJU3av/kmRqABzWFL3jMfmQS4NxHFrnBdsqTKntnHEqtnKY2Bsatpa2LU= ubuntu@ip-172-31-4-245"
 
 
 # Nodes server Image ID
-rancher_node_image_id = "ed260692-db71-4be7-9283-0999ce828ff7" ## f99bb6f7-658d-4f7c-840d-...
+rancher_node_image_id = "92f2db82-66c6-463e-8bc8-41f0e48f7402" ## f99bb6f7-658d-4f7c-840d-...
 # Count of agent nodes with role master (controlplane,etcd)
 count_master = "1"
 # Count of agent nodes with role worker

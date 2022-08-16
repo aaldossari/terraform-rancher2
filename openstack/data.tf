@@ -1,6 +1,6 @@
 # Retrieving external network infromation
-data "openstack_networking_network_v2" "demo_network" {
-  name = var.demo_network
+data "openstack_networking_network_v2" "external_network" {
+  name = var.external_network
 }
 
 # Cloud-init file for Worker instances.
